@@ -21,7 +21,7 @@ namespace JwtParser
 
         private static async Task TestAsync()
         {
-            const string uri = "https://registry-1.docker.io/v2/r/microsoft/dotnet/tags/list";
+            const string uri = "https://registry-1.docker.io/v2/microsoft/dotnet/tags/list";
 
             using (var httpClient = new HttpClient())
             {
